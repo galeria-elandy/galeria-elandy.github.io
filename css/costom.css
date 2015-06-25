@@ -1,0 +1,376 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+	background-color: #f9d4d3;
+}
+.navbar-inverse{
+	border-color: #f9d4d3;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #a99b00;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #a99b00;
+}
+
+ul.nav, .navbar-brand{
+	color: #a99b00;
+	font-family: 'Playball', Norican, Niconne, sanserif;
+	font-size: 26px;
+}
+
+footer {
+	position: relative;
+	text-align: center;
+	background-color: #f9d4d3;
+	padding-top: 20px;
+	padding-bottom: 1px;
+}
+
+#zapraszamy{
+	background-color: #f5f5f5;
+}
+
+#back-to-top {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+
+#back-to-top a {
+	color: #333;
+}
+
+.jumbotron{
+	color: white;
+	text-align: center;
+	/* background-image: url('../images/014.jpg'); */
+	background-image: url('../images/mandala_sila_1188x510_a.jpg');
+	padding-top: 100px;
+	padding-bottom: 150px;
+	background-size: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1, h2{
+
+	font-family: 'Playball', Norican, Niconne, sanserif;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 2px #fff;
+	color: #a99b00;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+    font-weight: 300;
+    padding: 0 50px;
+    font-size: 26px;
+    /* text-shadow: 1px 1px 1px #a99b00; */
+}
+
+.btn-lg {
+
+	background-color: #a99b00;
+	border-color: #a99b00;
+}
+
+.jumbotron a:active {
+	background-color: #a99b00;
+	border-color: #a99b00;
+}
+
+.jumbotron a:hover {
+	opacity: .7;
+	background-color: #a99b00;
+	border-color: #a99b00;
+}
+
+.jumbotron a:focus {
+	opacity: .9;
+	background-color: #a99b00;
+	border-color: #f9d4d3;
+}
+
+.container p{
+	font-family: 'Ubuntu', Norican, Niconne, sanserif;
+}
+
+#zap {
+	text-shadow: 1px 1px 2px #a99b00;
+}
+
+
+.homepage {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+
+}
+	
+.homepage h2 {
+
+	color: #a99b00;
+	font-family: 'Ubuntu', Norican, Niconne, sanserif;
+}
+.homepage h3 {
+
+	color: #a99b00;
+	font-family: 'Ubuntu', Norican, Niconne, sanserif;
+}
+.homepage p {
+	font-weight: 100;
+	font-size: 21px;
+}
+.homepage a {
+	color: #a99b00;
+}
+
+.homepage a:hover {
+	color: #a99b00;
+	text-decoration: none;
+	opacity: .8;
+}
+.homepage hr {
+	border-top: 1px solid#a99b00;
+	width: 120px;
+	margin-top: 15px;
+}
+/* Responive styling */
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #fff;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #a99b00;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#zapraszamy .col-md-4 {
+		padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+	.jumbotron {
+		background-image: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 34px;
+	}
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+	.jumbotron {
+		background-image: none;
+	}
+}
+
+@media (max-width: 494px) {
+	.jumbotron h1 {
+		font-size: 24px;
+		text-align: center;
+	}
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0px;	 
+	}
+	.jumbotron {
+		padding-top: 7px;
+	}
+	.jumbotron {
+		background-image: none;
+	}
+}
+
+.btn-lg {
+	font-size: 18px;
+}
+
+.homepage p {
+	font-size: 18px;
+}
+
+/*
+footer img {
+	width: 30%;
+}
+*/
+.container hr {
+	border-top: 1px solid#a99b00;
+	width: 120px;
+	margin-top: 15px;
+}
+
+footer hr {
+	border-top: 1px solid#a99b00;
+	width: 120px;
+	margin-top: 15px;
+}
+
+/* footer contact */
+
+.contact {
+	width: 100%;
+}
+
+
+/* elandy page */
+
+.andy {
+	max-width: 180px;
+	max-height: 180px;
+	vertical-align: middle;
+	border-radius: 90px;
+	border: 4px solid #F9D4D3;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+}
+
+.col-md-6 h3 {
+	padding-top: 0px;
+	margin-top: 20px;
+}
+
+/* galeria page */
+
+#serce-galeria, #serce-galeria-footer{
+	max-height:40px;
+}
+.serce { 
+	max-height:40px;
+}
+
+/* anioly strona */
+
+#galeria-anioly {
+	text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+#jumbotron-anioly {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin-bottom: 25px;
+}
+#left-control-anioly .jumbotron a:hover {
+	background-color: transparent;
+    border-color: transparent;
+}
+#carousel-example-generic {
+	position: center;
+	max-width: 800;
+	max-height: 600;
+}
+.carousel-control.left {
+    background-image: none;
+    background-repeat: no-repeat;
+}
+.carousel-control.right {
+    right: 0px;
+    left: auto;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+.carousel-control.right a {
+	background-color: transparent;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 30px;
+    color: #a99b00;
+}
+.carousel-control:hover, .carousel-control:focus {
+    color: #a99b00;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 15%;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    opacity: 0.5;
+}
+
+/* obrazy, reprodukcje, ozdoby container-fluid */
+.container-fluid img {
+	max-width: 180px;
+	max-height: 180px;
+	vertical-align: middle;
+	border-radius: 90px;
+	border: 4px solid #F9D4D3;
+}
+
+.container-fluid h1 {
+	color: #a99b00;
+	font-family: 'Playball', Norican, Niconne, sanserif;
+	font-size: 40px;
+}
+
+.container-fluid h4{
+	color: #a99b00;
+	font-family: "Ubuntu",Norican,Niconne,sanserif;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 10px 0px 20px;
+    border-bottom: 1px solid #EEE;
+}
+.sub-header{
+	margin: 20px 0px 10px;
+}
+
+.table-responsive {
+	font-family: "Ubuntu",Norican,Niconne,sanserif;
+	color: #333;
+}
+
+
+
