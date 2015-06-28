@@ -100,7 +100,7 @@ footer {
 }
 
 .container p{
-	font-family: 'Ubuntu', Norican, Niconne, sanserif;
+	font-family: 'Ubuntu', sans-serif, Norican, Niconne, sanserif;
 }
 
 #zap {
@@ -118,12 +118,12 @@ footer {
 .homepage h2 {
 
 	color: #a99b00;
-	font-family: 'Ubuntu', Norican, Niconne, sanserif;
+	font-family: 'Ubuntu', sans-serif, Norican, Niconne, sanserif;
 }
 .homepage h3 {
 
 	color: #a99b00;
-	font-family: 'Ubuntu', Norican, Niconne, sanserif;
+	font-family: 'Ubuntu', sans-serif, Norican, Niconne, sanserif;
 }
 .homepage p {
 	font-weight: 100;
@@ -353,7 +353,7 @@ footer hr {
 
 .container-fluid h4{
 	color: #a99b00;
-	font-family: "Ubuntu",Norican,Niconne,sanserif;
+	font-family: 'Ubuntu', sans-serif, Norican, Niconne, sanserif;
 	font-size: 20px;
 	padding-left: 30px;
 }
@@ -368,7 +368,7 @@ footer hr {
 }
 
 .table-responsive {
-	font-family: "Ubuntu",Norican,Niconne,sanserif;
+	font-family: 'Ubuntu', sans-serif, Norican, Niconne, sanserif;
 	color: #333;
 }
 
