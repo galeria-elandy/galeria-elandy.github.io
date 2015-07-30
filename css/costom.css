@@ -21,7 +21,7 @@ body {
 
 ul.nav, .navbar-brand{
 	color: #a99b00;
-	font-family: 'Playball', Norican, Niconne, sanserif;
+	font-family: 'Playball', Norican, Niconne, sanserif, 'Allura', cursive;
 	font-size: 26px;
 }
 
@@ -61,7 +61,7 @@ footer {
 
 .jumbotron h1, h2{
 
-	font-family: 'Playball', Norican, Niconne, sanserif;
+	font-family: 'Playball', Norican, Niconne, sanserif, 'Allura', cursive;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	text-shadow: 1px 1px 2px #fff;
@@ -347,7 +347,7 @@ footer hr {
 
 .container-fluid h1 {
 	color: #a99b00;
-	font-family: 'Playball', Norican, Niconne, sanserif;
+	font-family: 'Playball', Norican, Niconne, sanserif, 'Allura', cursive;
 	font-size: 40px;
 }
 
