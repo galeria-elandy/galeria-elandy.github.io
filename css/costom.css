@@ -110,7 +110,7 @@ footer {
 
 .homepage {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 
 }
@@ -375,4 +375,12 @@ footer hr {
 	padding-left: 45px;
 }
 
+/* font awesome color changes */
 
+.fa-stack {
+    /*color: #F9D4D3; */
+    /*color: #F05274; */
+    /*color: #B3B9C9; */
+    /*color: #6C6D71; |*/
+    color: #DFC11F;
+}
